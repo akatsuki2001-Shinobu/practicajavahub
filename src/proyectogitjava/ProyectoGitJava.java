@@ -13,8 +13,11 @@ public class ProyectoGitJava {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        System.out.println("Hola mundo con Git en NetBeans!"); 
-    }
-    
-}
+    public static void main(String[] args) { 
+ System.out.println("Hola mundo con Git en NetBeans!"); 
+ int resultado = sumar(4, 6); 
+ System.out.println("La suma es: " + resultado); 
+ } 
+ public static int sumar(int a, int b) { 
+ return a + b; 
+ } }
