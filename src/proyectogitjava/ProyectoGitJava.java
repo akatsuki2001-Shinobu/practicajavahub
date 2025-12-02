@@ -14,7 +14,7 @@ public class ProyectoGitJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola mundo con Git en NetBeans!"); 
+        System.out.println("Hola desde MAIN en NetBeans!");
     }
     
 }
